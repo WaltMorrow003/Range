@@ -19,9 +19,14 @@
  */
 function range(start, end) {
     // YOUR CODE GOES BELOW HERE // 
-   (0.1000)
+    var result = {}
+   range (0,1000)
+   range (10, 89)
+   range (69, 420)
     
-    
-    
+    for(let i = 0; i >= 1000; i++){
+   result.push(i)
+    }
+    console.log(result)
     // YOUR CODE GOES ABOVE HERE //
 }
